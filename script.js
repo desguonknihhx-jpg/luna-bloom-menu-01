@@ -1,6 +1,6 @@
-const menuData ={
-    mojito: { 
-        title: { ku: 'موهيتو', ar: 'موهيتو', en: 'Mojito' }, 
+const menuData = {
+    mojito: {
+        title: { ku: 'موهيتو', ar: 'موهيتو', en: 'Mojito' },
         icon: 'fa-glass-martini-alt',
         items: [
             { name: 'Blue Hawaii (Soda)', img: 'b.jpg', price: '4,000' },
@@ -11,17 +11,17 @@ const menuData ={
             { name: 'Classic (Redbull)', img: 'c r.jpg', price: '4,500' }
         ]
     },
-    icecream: { 
-        title: { ku: 'ئایس کریم', ar: 'آيس كريم', en: 'Ice Cream' }, 
+    icecream: {
+        title: { ku: 'ئایس کریم', ar: 'آيس كريم', en: 'Ice Cream' },
         icon: 'fa-ice-cream',
         items: [
             { name: 'Classic ice cream small', img: 'classicicecream.jpg', price: '500' },
-            { name: 'Ice Cream Standard With toppings', img: 'icecreamstandard.jpg', price: '2,000' }
-             { name: 'Ice Cream Double With flowers', img: 'icecreamdouble.jpg', price: '3,000' }
+            { name: 'Ice Cream Standard With toppings', img: 'icecreamstandard.jpg', price: '2,000' },
+            { name: 'Ice Cream Double With flowers', img: 'icecreamdouble.jpg', price: '3,000' }
         ]
     },
-    hot: { 
-        title: { ku: 'گەرم', ar: 'ساخن', en: 'Hot Drinks' }, 
+    hot: {
+        title: { ku: 'گەرم', ar: 'ساخن', en: 'Hot Drinks' },
         icon: 'fa-mug-hot',
         items: [
             { name: 'Espresso', img: 'espresso.jpg', price: '3,000' },
@@ -35,8 +35,8 @@ const menuData ={
             { name: 'water', img: 'watter.jpg', price: '500' }
         ]
     },
-    cold: { 
-        title: { ku: 'تەزی', ar: 'بارد', en: 'Cold Drinks' }, 
+    cold: {
+        title: { ku: 'تەزی', ar: 'بارد', en: 'Cold Drinks' },
         icon: 'fa-snowflake',
         items: [
             { name: 'Ice Latte', img: '1.jpg', price: '4,000' },
@@ -46,8 +46,8 @@ const menuData ={
             { name: 'Ice Americano', img: 'a.jpg', price: '4,000' }
         ]
     },
-    pancake: { 
-        title: { ku: 'بان کێک', ar: 'بان كيك', en: 'Pancake' }, 
+    pancake: {
+        title: { ku: 'بان کێک', ar: 'بان كيك', en: 'Pancake' },
         icon: 'fa-layer-group',
         items: [
             { name: 'Mini Pancake Nutella', img: 'mininutellapancake.jpg', price: '3,500' },
@@ -57,42 +57,42 @@ const menuData ={
             { name: 'Mini Pancake Luna Bloom', img: 'luna waffle.jpg', price: '4,500' }
         ]
     },
-    cupcake: { 
-        title: { ku: 'کەب کێک', ar: 'كب كيك', en: 'Cupcake' }, 
+    cupcake: {
+        title: { ku: 'کەب کێک', ar: 'كب كيك', en: 'Cupcake' },
         icon: 'fas fa-cake-candles',
         items: [
             { name: 'Cupcake Luna Bloom', img: 'luna cupcake.jpg', price: '4,500' },
             { name: 'Cupcake Chocolate', img: 'chocolate pan.jpg', price: '4,000' },
             { name: 'Cupcake Vanilla', img: 'vanila pan.jpg', price: '4,000' },
-            { name: 'Cupcake Caramel', img: 'caramel pancake.jpg', price: '4,000' }
+            { name: 'Cupcake Caramel', img: 'caramel pancake.jpg', price: '4,000' },
             { name: 'Strawberry With Chocolate Luna Bloom', img: 'strawbery with chocolate.jpg', price: '4,000' }
         ]
     },
-    bakery: { 
-        title: { ku: 'كرواسان', ar: 'كرواسون', en: 'croissant' }, 
+    bakery: {
+        title: { ku: 'كرواسان', ar: 'كرواسون', en: 'croissant' },
         icon: 'fas fa-bread-slice',
         items: [
             { name: 'Cheese Croissant', img: 'cheesecroissant.jpg', price: '4,500' },
-            { name: 'Nutella Croissant', img: 'nutellacroissant.jpg', price: '4,500' }
-            { name: 'Pistachio Croissant', img: 'pistachiocroissant.jpg', price: '4,500' }
-            { name: 'Lotus Croissant', img: 'lotuscroissant.jpg', price: '4,500' }
+            { name: 'Nutella Croissant', img: 'nutellacroissant.jpg', price: '4,500' },
+            { name: 'Pistachio Croissant', img: 'pistachiocroissant.jpg', price: '4,500' },
+            { name: 'Lotus Croissant', img: 'lotuscroissant.jpg', price: '4,500' },
             { name: 'Cookies Luna Bloom', img: 'coockisss.jpg', price: '2,500' }
         ]
     },
-    waffle: { 
-        title: { ku: 'وافل', ar: 'وافل', en: 'Waffle' }, 
+    waffle: {
+        title: { ku: 'وافل', ar: 'وافل', en: 'Waffle' },
         icon: 'fa-stroopwafel',
         items: [
             { name: 'Waffle Luna Bloom', img: 'pumpkin-waffles-12.jpg', price: '4,500' },
-            { name: 'Waffle Chocolate', img:'waf.jpg', price: '4,500' },
+            { name: 'Waffle Chocolate', img: 'waf.jpg', price: '4,500' },
             { name: 'Waffle Fruits', img: 'images.jpg', price: '5,000' },
             { name: 'Waffle Pistachio', img: 'p.jpg', price: '4,000' },
             { name: 'Waffle Kinder', img: 'k ww.jpg', price: '4,500' },
             { name: 'Waffle Lotus', img: 'l ww.jpg', price: '4,000' }
         ]
     },
-    juice: { 
-        title: { ku: 'شەربەت', ar: 'عصائر', en: 'Fresh Juice' }, 
+    juice: {
+        title: { ku: 'شەربەت', ar: 'عصائر', en: 'Fresh Juice' },
         icon: 'fa-apple-alt',
         items: [
             { name: 'Orange Juice', img: 'orangge.jpg', price: '4,000' },
@@ -108,7 +108,7 @@ const menuData ={
 
 let currentLang = 'ku';
 
-// Language Toggle Logic
+// تبديل اللغة
 const langBtn = document.getElementById('langBtn');
 const langBox = document.getElementById('langBox');
 
@@ -123,74 +123,29 @@ document.addEventListener('click', () => {
 
 function changeLang(lang) {
     currentLang = lang;
-
-    // نڤێسینا ناڤێ دوکمێ ب سێ زمانان
     const btnTexts = { ku: 'زمان', ar: 'اللغة', en: 'Language' };
     document.getElementById('btn-text').innerText = btnTexts[lang];
     renderCategories();
+    renderMenu();
 }
 
+// عرض أيقونات الأصناف
 function renderCategories() {
     const container = document.getElementById('cat-container');
     container.innerHTML = Object.keys(menuData).map(key => `
-        <div class="cat-item" onclick="showItems('${key}')" id="cat-${key}">
+        <div class="cat-item" onclick="scrollToSection('${key}')" id="cat-${key}">
             <i class="fas ${menuData[key].icon}"></i>
             <p>${menuData[key].title[currentLang]}</p>
         </div>
     `).join('');
-    
-    // ل دەسپێکێ هەمی ئایتمان نیشان بدە
-    showItems('mojito');
 }
 
-function showItems(catId) {
-    document.querySelectorAll('.cat-item').forEach(el => el.classList.remove('active'));
-    document.getElementById(`cat-${catId}`).classList.add('active');
-
-    const container = document.getElementById('items-container');
-    container.innerHTML = '';
-
-    let items = [];
-
-    // ئەگەر "هەمی" هاتە هەلبژارتن، هەمی لیستان کۆم بکە
-    if (catId === 'all') {
-        Object.keys(menuData).forEach(key => {
-            if (menuData[key].items) {
-                items = items.concat(menuData[key].items);
-            }
-        });
-    } else {
-        items = menuData[catId].items || [];
-    }
-
-    container.innerHTML = items.map(item => `
-        <div class="item-card">
-            <div class="item-img">
-                <img src="images/${item.img}" alt="${item.name}" 
-                     onerror="this.src='https://via.placeholder.com/150?text=Luna+Bloom'" 
-                     style="width:100%; height:100%; object-fit:cover;">
-            </div>
-            <div class="item-info">
-                <div class="item-name">${item.name}</div>
-                <div class="item-price">${item.price} IQD</div>
-            </div>
-        </div>
-    `).join('');
-}
-
-window.onload = renderCategories;
-
-
-
-// ... (هەمی داتایێن تە ل سەرێ لێ بن وەک خۆ) ...
-
+// عرض كل الأقسام مع الأصناف
 function renderMenu() {
     const container = document.getElementById('menu-container');
     container.innerHTML = '';
 
     Object.keys(menuData).forEach(key => {
-        if (key === 'all') return; // بازدان بەسەر کلیلێ 'all'
-
         const section = menuData[key];
         let sectionHTML = `
             <div id="${key}" class="menu-section">
@@ -202,8 +157,9 @@ function renderMenu() {
             sectionHTML += `
                 <div class="item-card">
                     <div class="item-img-container">
-                        <img src="images/${item.img}" onerror="this.src='https://via.placeholder.com/150'">
-                        <div class="price-badge">${item.price}</div>
+                        <img src="images/${item.img}" alt="${item.name}" 
+                             onerror="this.src='https://via.placeholder.com/150?text=Luna+Bloom'">
+                        <div class="price-badge">${item.price} IQD</div>
                     </div>
                     <div class="item-info">
                         <div class="item-name">${item.name}</div>
@@ -217,48 +173,16 @@ function renderMenu() {
     });
 }
 
-// سکرۆڵ سپای (ScrollSpy) - گوهۆڕینا ڕەنگێ ئایکۆن دەمێ سکرۆڵ دکەی
-window.addEventListener('scroll', () => {
-    let current = "";
-    const sections = document.querySelectorAll('.menu-section');
-    sections.forEach(section => {
-        if (pageYOffset >= (section.offsetTop - 200)) {
-            current = section.getAttribute('id');
-        }
-    });
-
-    document.querySelectorAll('.cat-item').forEach(item => {
-        item.classList.remove('active');
-        if (item.id === `cat-${current}`) {
-            item.classList.add('active');
-        }
-    });
-});
-
-// ئەڤە بانگ بکە ل شوینا شو ئایتمس
-function renderCategories() {
-    const container = document.getElementById('cat-container');
-    container.innerHTML = Object.keys(menuData).map(key => `
-        <div class="cat-item" onclick="scrollToSection('${key}')" id="cat-${key}">
-            <i class="fas ${menuData[key].icon}"></i>
-            <p>${menuData[key].title[currentLang]}</p>
-        </div>
-    `).join('');
-    renderMenu();
-}
-
+// التمرير إلى قسم معين
 function scrollToSection(id) {
     const element = document.getElementById(id);
     if (element) {
-        // ١. سکرۆڵ بۆ بەشی خوارنەکە (ئەوەی پێشتر هەبوو)
-        element.scrollIntoView({ behavior: "smooth" });
+        element.scrollIntoView({ behavior: 'smooth' });
 
-        // ٢. سکرۆڵ بۆ ئۆتۆماتیکی ئایکۆنەکان (ئەوەی نوێیە)
-        const activeCategory = document.querySelector(`.cat-item[onclick*="scrollToSection('${id}')"]`);
+        const activeCategory = document.getElementById(`cat-${id}`);
         if (activeCategory) {
             const container = document.getElementById('cat-container');
             const offset = activeCategory.offsetLeft - (container.offsetWidth / 2) + (activeCategory.offsetWidth / 2);
-            
             container.scrollTo({
                 left: offset,
                 behavior: 'smooth'
@@ -266,34 +190,30 @@ function scrollToSection(id) {
         }
     }
 }
+
+// مراقبة التمرير (ScrollSpy)
 window.addEventListener('scroll', () => {
-    const sections = document.querySelectorAll('section, .menu-section, [id]'); // پشکنینا هەمی بەشان
-    let currentId = "";
+    const sections = document.querySelectorAll('.menu-section');
+    let currentId = '';
 
     sections.forEach(section => {
         const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-        // ئەگەر سکرۆڵ گەهشتبوو نیڤا بەشی
-        if (window.scrollY >= (sectionTop - sectionHeight / 3)) {
+        if (window.scrollY >= sectionTop - 200) {
             currentId = section.getAttribute('id');
         }
     });
 
     if (currentId) {
-        // ١. لادانا کلاسا active ژ هەمی ئایکۆنان
         document.querySelectorAll('.cat-item').forEach(item => {
             item.classList.remove('active');
         });
 
-        // ٢. زێدەکرنا کلاسا active بۆ ئایکۆنێ وی بەشی
-        const activeLink = document.querySelector(`.cat-item[onclick*="scrollToSection('${currentId}')"]`);
+        const activeLink = document.getElementById(`cat-${currentId}`);
         if (activeLink) {
             activeLink.classList.add('active');
 
-            // ٣. سکرۆڵکرنا ئۆتۆماتیک بۆ ئایکۆنی د ناڤ لیستا سەرێ دا
             const container = document.getElementById('cat-container');
             const offset = activeLink.offsetLeft - (container.offsetWidth / 2) + (activeLink.offsetWidth / 2);
-            
             container.scrollTo({
                 left: offset,
                 behavior: 'smooth'
@@ -301,3 +221,9 @@ window.addEventListener('scroll', () => {
         }
     }
 });
+
+// عند تحميل الصفحة
+window.onload = function () {
+    renderCategories();
+    renderMenu();
+};
