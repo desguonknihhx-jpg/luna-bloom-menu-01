@@ -15,8 +15,9 @@ const menuData ={
         title: { ku: 'ئایس کریم', ar: 'آيس كريم', en: 'Ice Cream' }, 
         icon: 'fa-ice-cream',
         items: [
-            { name: 'Ice Cream Luna Bloom', img: 'luna ice cream.jpg', price: '4,500' },
-            { name: 'Ice Cream Classic', img: 'calassic ice cream.jpg', price: '3,000' }
+            { name: 'Classic ice cream small', img: 'classicicecream.jpg', price: '500' },
+            { name: 'Ice Cream Standard With toppings', img: 'icecreamstandard.jpg', price: '2,000' }
+             { name: 'Ice Cream Double With flowers', img: 'icecreamdouble.jpg', price: '3,000' }
         ]
     },
     hot: { 
@@ -49,10 +50,10 @@ const menuData ={
         title: { ku: 'بان کێک', ar: 'بان كيك', en: 'Pancake' }, 
         icon: 'fa-layer-group',
         items: [
-            { name: 'Mini Pancake Chocolate', img: 'chocolate waffle.jpg', price: '4,000' },
+            { name: 'Mini Pancake Nutella', img: 'mininutellapancake.jpg', price: '3,500' },
             { name: 'Mini Pancake Pistachio', img: 'fstq waffle.jpg', price: '4,000' },
-            { name: 'Mini Pancake Lotus', img: 'lutos waffle.jpg', price: '4,000' },
-            { name: 'Mini Pancake Kinder', img: 'kinder waffle.jpg', price: '4,500' },
+            { name: 'Mini Pancake Lotus', img: 'minipanakelotus.jpg', price: '3,500' },
+            { name: 'Mini Pancake Kinder', img: 'minipancakekinder.jpg', price: '4,000' },
             { name: 'Mini Pancake Luna Bloom', img: 'luna waffle.jpg', price: '4,500' }
         ]
     },
@@ -64,14 +65,18 @@ const menuData ={
             { name: 'Cupcake Chocolate', img: 'chocolate pan.jpg', price: '4,000' },
             { name: 'Cupcake Vanilla', img: 'vanila pan.jpg', price: '4,000' },
             { name: 'Cupcake Caramel', img: 'caramel pancake.jpg', price: '4,000' }
+            { name: 'Strawberry With Chocolate Luna Bloom', img: 'strawbery with chocolate.jpg', price: '4,000' }
         ]
     },
     bakery: { 
         title: { ku: 'كرواسان', ar: 'كرواسون', en: 'croissant' }, 
         icon: 'fas fa-bread-slice',
         items: [
-            { name: 'Croissant', img: 'croissant.jpg', price: '4,500' },
-            { name: 'Cookies', img: 'coockis.jpg', price: '3,500' }
+            { name: 'Cheese Croissant', img: 'cheesecroissant.jpg', price: '4,500' },
+            { name: 'Nutella Croissant', img: 'nutellacroissant.jpg', price: '4,500' }
+            { name: 'Pistachio Croissant', img: 'pistachiocroissant.jpg', price: '4,500' }
+            { name: 'Lotus Croissant', img: 'lotuscroissant.jpg', price: '4,500' }
+            { name: 'Cookies Luna Bloom', img: 'coockisss.jpg', price: '2,500' }
         ]
     },
     waffle: { 
